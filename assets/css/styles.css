@@ -1,0 +1,24 @@
+*{
+    
+    font-family: Abril FatFace,sans-serif;
+}
+body{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/matt-botsford-OKLqGsCT8qs-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.embedded-playlist-container{
+    margin-top: 10px;
+    
+}
+
