@@ -126,3 +126,24 @@ img {
   padding-right: 8%;
   padding-bottom: 5%;
 }
+/* No Support Screen Sizes */
+@media screen and (min-width: 100px) and (max-width: 349px) {
+  .no-support-device {
+    display: inline;
+    text-align: center;
+  }
+  .browse-container,
+  .browse-caption,
+  .row,
+  .spinner-container,
+  .footer {
+    display: none;
+  }
+}
+
+/* Xs Query */
+@media screen and (min-width: 349px) and (max-width: 576px) {
+  /* body {
+    
+    
+  } */}
