@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lift</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Link to Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Link to local CSS -->
+   <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/query.css" />
+  </head>
+  <body class="homeBody">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: black;">Lift</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" style="color: black;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown" >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-user" style="color: black; font-size: 2rem;"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fas fa-sliders-h"></i>Settings</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fas fa-info"></i>About</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="fas fa-power-off"></i>Logout</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+                <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                      Split dropright
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                      </div>
+                        
+  </div>
+            </div>
+            
+              <div class="col">
+                  <div class="embedded-playlist-container" style="position: fixed;">
+                    <iframe
+                      class=""
+                      src="https://open.spotify.com/embed/playlist/6IQ01VBh2vTVw1qmwJkyQS"
+                      width="350"
+                      height="420"
+                      frameborder="0"
+                      allowtransparency="true"
+                      allow="encrypted-media"
+                    ></iframe>
+                    <div class="caption">Picks On Us ....</div>
+                  </div>
+
+              </div>
+              </div>
+          </div>
+    
+    <!--
+
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-7">
+            <div class="card shadow-lg" style="box-shadow: 0 2px 5px 0 rgba(66, 133, 244,.16)" >    
+              <p style="text-align: center; margin-top: 3rem; font-family: ABRIL FATFACE,sans-serif; font-size: 3rem;">Lorem ipsum dolor sit, amet consectetur </p>
+           
+            </div>
+          </div>
+          <div class="col">
+            <div class="embedded-playlist-container" style="position: fixed;">
+             <iframe
+               class=""
+               src="https://open.spotify.com/embed/playlist/6IQ01VBh2vTVw1qmwJkyQS"
+               width="350"
+               height="420"
+               frameborder="0"
+               allowtransparency="true"
+               allow="encrypted-media"
+             ></iframe>
+             <div class="caption">Picks On Us ....</div>
+           </div>
+         </div>
+          
+            
+    </div>
+    <div class="row">
+         <div class="top-container">
+                    <form action="" class="get-data-section">
+                      <div class="info-section-form-container">
+                        <label for="genre" class="label larger-label">Genre</label>
+                        <select name="genre-selector" class="input-select">
+                          <option value="">G1</option>
+                          <option value="">G2</option>
+                          <option value="">G3</option>
+                        </select>
+                      </div>
+              
+                      <div class="info-section-form-container">
+                        <label for="playlist" class="label larger-label">Playlist</label>
+                        <select name="playlist-selector" class="input-select">
+                          <option value="">P1</option>
+                          <option value="">P2</option>
+                          <option value="">P3</option>
+                        </select>
+                      </div>
+              
+                      <input type="submit" value="Search" class="input-submit" />
+                    </form>
+              
+                   
+                  </div>   
+      
+    </div>
+    </div>
+    
+-->
+<!-- Link to Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+      integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+      integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link to Local JS -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
