@@ -19,16 +19,21 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- Link to local CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+   <link rel="stylesheet" href="./assets/css/home.css" />
     <link rel="stylesheet" href="./assets/css/query.css" />
   </head>
   <body class="homeBody">
-    <!-- Navigation Bar -->
+    
+     Navigation Bar 
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Lift</a>
+        <a class="navbar-brand" href="#" style="color: black;">Lift</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,11 +43,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="color: black;"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" >
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -51,7 +56,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fas fa-user"></i>
+                <i class="fas fa-user" style="color: black; font-size: 2rem;"></i>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
@@ -76,45 +81,80 @@
         </div>
       </div>
     </nav>
-
-    <!-- Info Section -->
-    <div class="top-container">
-      <form action="" class="get-data-section">
-        <div class="info-section-form-container">
-          <label for="genre" class="label larger-label">Genre</label>
-          <select name="genre-selector" class="input-select">
-            <option value="">G1</option>
-            <option value="">G2</option>
-            <option value="">G3</option>
-          </select>
-        </div>
-
-        <div class="info-section-form-container">
-          <label for="playlist" class="label larger-label">Playlist</label>
-          <select name="playlist-selector" class="input-select">
-            <option value="">P1</option>
-            <option value="">P2</option>
-            <option value="">P3</option>
-          </select>
-        </div>
-
-        <input type="submit" value="Search" class="input-submit" />
-      </form>
-
-      <div class="embedded-playlist-container">
-        <iframe
-          class=""
-          src="https://open.spotify.com/embed/playlist/6IQ01VBh2vTVw1qmwJkyQS"
-          width="350"
-          height="420"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-        <div class="caption">Picks On Us ....</div>
-      </div>
+    <!--
+    <div class="container">
+      <div class="row">
+          <div class="col-7">
+            <div class="card shadow-lg" style="box-shadow: 0 2px 5px 0 rgba(66, 133, 244,.16)" >
+              <img src="./assets/img/music-solid.svg" style="width: 20rem; margin-left: 8rem;" alt="Card image cap">       
+              <p style="text-align: center; margin-top: 3rem; font-family: ABRIL FATFACE,sans-serif; font-size: 3rem;">Lorem ipsum dolor sit, amet consectetur </p>
+              <div class="top-container">
+                <form action="" class="get-data-section">
+                  <div class="info-section-form-container">
+                    <label for="genre" class="label larger-label">Genre</label>
+                    <select name="genre-selector" class="input-select">
+                      <option value="">G1</option>
+                      <option value="">G2</option>
+                      <option value="">G3</option>
+                    </select>
+                  </div>
+          
+                  <div class="info-section-form-container">
+                    <label for="playlist" class="label larger-label">Playlist</label>
+                    <select name="playlist-selector" class="input-select">
+                      <option value="">P1</option>
+                      <option value="">P2</option>
+                      <option value="">P3</option>
+                    </select>
+                  </div>
+          
+                  <input type="submit" value="Search" class="input-submit" />
+                </form>
+          
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="embedded-playlist-container" style="position: fixed;">
+             <iframe
+               class=""
+               src="https://open.spotify.com/embed/playlist/6IQ01VBh2vTVw1qmwJkyQS"
+               width="350"
+               height="420"
+               frameborder="0"
+               allowtransparency="true"
+               allow="encrypted-media"
+             ></iframe>
+             <div class="caption">Picks On Us ....</div>
+           </div>
+         </div>
+          
+            
+    </div>
+    <div class="row">
+      
     </div>
 
+
+    </div>
+
+  -->
+   <section>
+     <div class="circle"></div>
+     <div class="content">
+        <div class="textBox">
+          <h2>It's not just music <span>LIFT</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis maxime aliquid totam asperiores vel reiciendis quis excepturi accusantium, unde, reprehenderit quaerat ab voluptates earum id? Quis quasi quo esse!</p>
+          <a href="#"></a>
+        </div>
+          <div class="imgBox">
+            <img src="./assets/img/music-solid.svg" alt="">
+          </div>
+        </div>   
+   </section>
+   
+  
     <!-- Link to Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
