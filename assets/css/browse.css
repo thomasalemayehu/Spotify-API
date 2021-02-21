@@ -97,13 +97,13 @@ img {
   color: white;
 }
 .track-name {
-  font-size: 32px;
+  font-size: 28px;
 }
 .artist-name {
-  font-size: 21px;
+  font-size: 16px;
 }
 .album-name {
-  font-size: 16px;
+  font-size: 14px;
 }
 .icon-container-play {
   height: 170px;

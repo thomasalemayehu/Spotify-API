@@ -94,26 +94,7 @@ function browseContent() {
                <a> <i class="far fa-play-circle"></i></a>
               </div>
             </div>
-            <div class="row-lyric">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-              sequi quas quod magnam soluta nihil ut adipisci, unde optio quae
-              consequatur eius modi sint. Nesciunt, doloremque nobis? Officia,
-              impedit expedita. Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Accusantium libero sit amet non voluptate
-              sapiente, necessitatibus rerum cum ducimus corrupti itaque
-              voluptatibus nulla ipsa odit nemo et minus! Culpa, excepturi.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-              porro quisquam, pariatur iusto reiciendis suscipit ea dignissimos
-              dolore qui neque architecto earum quasi iure, a, at tempora
-              corporis sunt maiores! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Nihil, et accusantium in asperiores doloribus
-              corrupti quis quos illo quibusdam at, eligendi natus fugit vitae
-              officiis impedit unde eos recusandae suscipit? Lorem ipsum dolor
-              sit amet, consectetur adipisicing elit. Illum laborum vel omnis
-              quod tempore alias qui voluptates autem, temporibus praesentium
-              soluta sint quam architecto inventore veritatis voluptate
-              perspiciatis. Odio, iure.
-            </div>
+          
           </div>
         </div>`;
     let tracksContainer = document.querySelector(".tracks-container");
