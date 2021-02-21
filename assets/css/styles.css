@@ -23,7 +23,7 @@ body{
 }
 
 @media screen and (max-width: 650px) and (min-width: 300px) {
-  .embedded-playlist-container .col .row{
+  .embedded-playlist-container .col .row {
     flex-direction: column;
     width: 100%;
     height: 115vh;
@@ -34,15 +34,34 @@ body{
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
   }
+  .frame{
+    width: 75%;
+    height: 20%;
+
+  }
 }
 @media screen and (max-width: 851px) and (max-width: 650px) {
-  .embedded-playlist-container .col .row{
-    width: 600px;
-    height: 70%;}
+  .embedded-playlist-container .col .row {
+     width: 72%;
+    height: 78%;}
   }
+
   @media screen and (min-width: 1200px) {
   .embedded-playlist-container .col .row{
     width: 72%;
     height: 78%;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 349px) {
+  .embedded-playlist-container .col .row{
+    flex-direction: column;
+    width: 100%;
+    height: 115vh;
+    border-radius: 0px;
+    padding-bottom: 2%;
+  }
+  .frame{
+    width: 75%;
+    height: 20%;
   }
 }
