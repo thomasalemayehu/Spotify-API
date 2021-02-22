@@ -23,6 +23,7 @@ function browseContent() {
     let allCategoriesData = allCategories.categories.items;
 
     allCategoriesData.forEach((category) => {
+      activeSpinner(spinnerContainer);
       let colDiv = document.createElement("div");
       colDiv.classList.add("col-3");
       colDiv.setAttribute("id", category.id);
