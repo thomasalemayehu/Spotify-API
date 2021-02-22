@@ -165,16 +165,99 @@ img {
     width: 100%;
     height: 80vh;
   }
+<<<<<<< HEAD
+=======
+.spinner-container {
+  width: 100%;
+  height: 80vh;
 }
+.row-lyric{
+ width: 65%;
+  height: 50vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+.picture-section{
+  margin-right:100%;
+  margin-left: 0%;
+  margin-top: 20%;
+  padding-top: 20%;
+
+}
+
+.tracks-detail{
+   height: 80vh;
+    width: 20vh;
+    padding-right: 59.7%;
+  }
+  .track-info-container{
+    padding-top: 50%;
+    margin-top: 20%;
+    width: 30%;
+  }
+  .track-name{
+    font-size: 20px;
+  }
+  .artist-name{
+    font-size: 12px;
+  }
+  .album-name{
+  font-size: 14px;
+}
+.track-section{
+  width: 30%;
+>>>>>>> 276c0d2b7f80457a3c97c9658a0cfded765a37c8
+}
+
+}
+
 @media screen and (max-width: 851px) and (max-width: 650px) {
   .browse-caption {
     margin-bottom: 2%;
     font-size: 36px;
   }
   .spinner-container {
+<<<<<<< HEAD
     width: 100%;
     height: 80vh;
   }
+=======
+  width: 100%;
+  height: 80vh;
+}
+.track-section{
+  width: 30%;
+}
+.picture-section{
+  margin-right:100%;
+  margin-left: 0%;
+  margin-top: 20%;
+  padding-top: 20%;
+
+}
+
+.tracks-detail{
+   height: 80vh;
+    width: 20vh;
+    padding-right: 59.7%;
+  }
+  .track-info-container{
+    padding-top: 50%;
+    margin-top: 20%;
+    width: 30%;
+  }
+  .track-name{
+    font-size: 20px;
+  }
+  .artist-name{
+    font-size: 12px;
+  }
+  .album-name{
+  font-size: 14px;
+}
+
+>>>>>>> 276c0d2b7f80457a3c97c9658a0cfded765a37c8
 }
 
 @media screen and (min-width: 1200px) {
@@ -183,7 +266,14 @@ img {
     font-size: 36px;
   }
   .spinner-container {
+<<<<<<< HEAD
     width: 100%;
     height: 80vh;
   }
 }
+=======
+  width: 100%;
+  height: 80vh;
+ }
+}
+>>>>>>> 276c0d2b7f80457a3c97c9658a0cfded765a37c8
