@@ -13,6 +13,8 @@ function browseContent() {
   let rowContainer = document.querySelector(".row");
   let spinnerContainer = document.querySelector(".spinner-container");
 
+  activeSpinner(spinnerContainer);
+
   document.addEventListener("DOMContentLoaded", setUpCategory);
 
   async function setUpCategory() {
@@ -42,7 +44,9 @@ function browseContent() {
     document.removeEventListener("DOMContentLoaded", setUpCategory);
 
     browseContainer.addEventListener("click", setUpPlaylist);
+    deactivateSpinner(spinnerContainer);
   }
+
   async function setUpPlaylist(e) {
     activeSpinner(spinnerContainer);
     rowContainer.innerHTML = "";
@@ -81,21 +85,21 @@ function browseContent() {
         <div class="browse-caption col-12 caption-reduced">Playlist Name</div>
         <div class="row tracks-section">
           <div class="col-4 tracks-container">
-           
+
           </div>
           <div class="col-6 tracks-detail">
             <div class="row p-0 info-top">
               <div class="col-4 picture-section"></div>
-              <div class="col-5 track-info-container">
-                <div class="track-name">Track Name</div>
-                <div class="artist-name">Artist Name</div>
-                <div class="album-name">Album Name</div>
+              <div class="col-8 track-info-container">
+                <div class="track-name"></div>
+                <div class="artist-name"></div>
+                <div class="album-name"></div>
               </div>
               <div class="col-3 icon-container-play p-0 m-0">
                <a> <i class="far fa-play-circle"></i></a>
               </div>
             </div>
-          
+
           </div>
         </div>`;
     let tracksContainer = document.querySelector(".tracks-container");
@@ -142,7 +146,7 @@ function browseContent() {
                   alt=""
                 />
               </div>
-              <div class="col-5 track-info-container">
+              <div class="col-8 track-info-container">
                 <div class="track-name">${track.name}</div>
                 <div class="artist-name">${artistsNames}</div>
                 <div class="album-name">${track.album.name}</div>
