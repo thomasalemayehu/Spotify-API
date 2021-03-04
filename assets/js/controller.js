@@ -4,7 +4,7 @@ import {
   getCategoryPlaylist,
   getTracks,
   getTrack,
-  searchItem,
+  searchTrack,
 } from "./model.js";
 
 // UI Var
@@ -123,7 +123,7 @@ function browseContent() {
         let iTag = document.createElement("i");
         iTag.classList.add("fas");
         iTag.classList.add("fa-heart");
-        if (searchItem(track.track)) {
+        if (searchTrack(track.track)) {
           iTag.classList.add("red");
         }
         rowDiv.appendChild(iTag);
@@ -202,7 +202,7 @@ function browseContent() {
 
   (async function searchInfo() {
     let token = await getToken();
-    let result = await searchItem(token, "Muse");
+    let result = await searchTrack(token, "Muse");
     console.log(result);
   })();
 }
@@ -211,7 +211,7 @@ function addItem(itemToAdd, heart) {
   let arrayValue = JSON.parse(getItems());
   if (arrayValue == null) {
     arrayValue = [];
-  } else if (searchItem(itemToAdd)) {
+  } else if (searchDB(itemToAdd)) {
     let newValues = [];
     let oldValues = JSON.parse(getItems());
     for (let i = 0; i < oldValues.length; i++) {
@@ -236,7 +236,7 @@ function getItems() {
   return localStorage.getItem("Favorites");
 }
 
-function searchItem(itemToAdd) {
+function searchDB(itemToAdd) {
   let found = false;
   let values = JSON.parse(getItems());
   for (let i = 0; i < values.length; i++) {
