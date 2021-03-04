@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Browse</title>
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,14 +21,16 @@
 
     <link rel="stylesheet" href="./assets/css/browse.css" />
   </head>
+
   <body>
     <div class="container-fluid browse-container category">
+      <input type="search" class="search-bar" />
       <div class="row">
         <div class="browse-caption col-12">Browse</div>
       </div>
 
       <div class="spinner-container">
-        <div class="spinner-grow text-primary" role="status"></div>
+        <div class="spinner-grow text-primary bg-primary" role="status"></div>
       </div>
     </div>
 

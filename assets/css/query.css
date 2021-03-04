@@ -1,97 +1,62 @@
-@media screen and (min-width: 1200px) {
-  .main-card {
-    width: 72%;
-    height: 78%;
+@media screen and (min-width: 100px) and (max-width: 349px) {
+  .no-support-device {
+    display: inline;
+    text-align: center;
   }
-  .main-logo {
-    font-size: 44px;
-  }
-  .main-title {
-    font-size: 30px;
-    letter-spacing: 1.2px;
-  }
-  .main-slogan {
-    font-size: 28px;
-  }
-  .main-info-box {
-    margin-top: 25%;
-    font-size: 19px;
-  }
-  .form-intro {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 8%;
-  }
-  .form-inputs-container {
-    width: 70%;
-    margin-bottom: 5%;
-  }
-  .formLabel {
-    font-size: 16px;
-    letter-spacing: 0.2px;
-  }
-  .inputForm {
-    height: 42px;
-  }
-  .inputSubmit {
-    width: 70%;
-    height: 55px;
-  }
-  .main-redirect {
-    margin-top: 5%;
-    font-size: 15px;
+  .browse-container,
+  .browse-caption,
+  .row,
+  .spinner-container,
+  .footer {
+    display: none;
   }
 }
 
-@media screen and (max-width: 851px) and (max-width: 650px) {
-  .main-card {
-    width: 600px;
-    height: 70%;
-  }
-  .main-logo {
+@media screen and (min-width: 349px) and (max-width: 576px) {
+  .browse-caption {
+    margin-bottom: 2%;
     font-size: 36px;
   }
-  .main-title {
-    font-size: 24px;
-    letter-spacing: 0.8px;
+  .spinner-container {
+    width: 100%;
+    height: 80vh;
   }
-  .main-slogan {
-    font-size: 22px;
+  .row-lyric {
+    width: 65%;
+    height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
   }
-  .main-info-box {
-    margin-top: 25%;
-    font-size: 15px;
+  .picture-section {
+    margin-right: 100%;
+    margin-left: 0%;
+    margin-top: 20%;
+    padding-top: 20%;
   }
-  .form-intro {
-    font-size: 24px;
-    letter-spacing: 0.8px;
-    margin-top: 8%;
+
+  .tracks-detail {
+    height: 80vh;
+    width: 20vh;
+    padding-right: 59.7%;
   }
-  .form-inputs-container {
-    width: 70%;
-    margin-bottom: 5%;
+  .track-info-container {
+    padding-top: 50%;
+    margin-top: 20%;
+    width: 30%;
   }
-  .formLabel {
-    font-size: 15px;
-    letter-spacing: 0.2px;
+  .track-name {
+    font-size: 20px;
   }
-  .inputForm {
-    height: 35px;
+  .artist-name {
+    font-size: 12px;
   }
-  .inputSubmit {
-    width: 70%;
-    height: 50px;
-  }
-  .main-redirect {
-    margin-top: 15%;
-    text-align: end;
-    padding-right: 3%;
-    font-size: 13px;
+  .album-name {
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 650px) and (min-width: 300px) {
+@media screen and (min-width: 349px) and (max-width: 650px) {
   .main-card {
     flex-direction: column;
     width: 100%;
@@ -165,5 +130,145 @@
     text-align: end;
     padding-right: 2%;
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 851px) {
+  .main-card {
+    width: 600px;
+    height: 70%;
+  }
+  .main-logo {
+    font-size: 36px;
+  }
+  .main-title {
+    font-size: 24px;
+    letter-spacing: 0.8px;
+  }
+  .main-slogan {
+    font-size: 22px;
+  }
+  .main-info-box {
+    margin-top: 25%;
+    font-size: 15px;
+  }
+  .form-intro {
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    margin-top: 8%;
+  }
+  .form-inputs-container {
+    width: 70%;
+    margin-bottom: 5%;
+  }
+  .formLabel {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+  }
+  .inputForm {
+    height: 35px;
+  }
+  .inputSubmit {
+    width: 70%;
+    height: 50px;
+  }
+  .main-redirect {
+    margin-top: 15%;
+    text-align: end;
+    padding-right: 3%;
+    font-size: 13px;
+  }
+
+  .browse-caption {
+    margin-bottom: 2%;
+    font-size: 36px;
+  }
+  .spinner-container {
+    width: 100%;
+    height: 80vh;
+  }
+  .tracks-section {
+    background-color: red;
+  }
+  .picture-section {
+    margin-right: 100%;
+    margin-left: 0%;
+    margin-top: 20%;
+    padding-top: 20%;
+  }
+
+  .tracks-detail {
+    height: 80vh;
+    width: 20vh;
+    padding-right: 59.7%;
+  }
+  .track-info-container {
+    padding-top: 50%;
+    margin-top: 20%;
+    width: 30%;
+  }
+  .track-name {
+    font-size: 20px;
+  }
+  .artist-name {
+    font-size: 12px;
+  }
+  .album-name {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-card {
+    width: 72%;
+    height: 78%;
+  }
+  .main-logo {
+    font-size: 44px;
+  }
+  .main-title {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+  }
+  .main-slogan {
+    font-size: 28px;
+  }
+  .main-info-box {
+    margin-top: 25%;
+    font-size: 19px;
+  }
+  .form-intro {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 8%;
+  }
+  .form-inputs-container {
+    width: 70%;
+    margin-bottom: 5%;
+  }
+  .formLabel {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+  }
+  .inputForm {
+    height: 42px;
+  }
+  .inputSubmit {
+    width: 70%;
+    height: 55px;
+  }
+  .main-redirect {
+    margin-top: 5%;
+    font-size: 15px;
+  }
+
+  .browse-caption {
+    margin-bottom: 2%;
+    font-size: 36px;
+  }
+  .spinner-container {
+    width: 100%;
+    height: 80vh;
   }
 }

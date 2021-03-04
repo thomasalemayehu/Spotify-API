@@ -63,4 +63,24 @@ async function getTrack(token, trackID) {
   return data;
 }
 
-export { getToken, getAllCategories, getCategoryPlaylist, getTracks, getTrack };
+async function searchTrack(token, query) {
+  let result = await fetch(
+    `https://api.spotify.com/v1/search?q=${query}&type=track%2Cartist`,
+    {
+      method: "GET",
+      headers: { Authorization: "Bearer " + token },
+    }
+  );
+
+  const data = await result.json();
+  return data;
+}
+
+export {
+  getToken,
+  getAllCategories,
+  getCategoryPlaylist,
+  getTracks,
+  getTrack,
+  searchTrack,
+};

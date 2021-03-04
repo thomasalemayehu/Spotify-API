@@ -18,8 +18,8 @@
   background-color: rgba(0, 0, 0, 0.85);
   background: linear-gradient(
       to right bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
     ),
     url("../img/New folder/pexels-stas-knop-1626481.jpg");
   background-size: cover;
@@ -115,7 +115,8 @@ img {
   color: white;
 }
 .track-name {
-  font-size: 32px;
+  font-size: 30px;
+  /* margin-top: %; */
 }
 .artist-name {
   font-size: 21px;
@@ -129,7 +130,12 @@ img {
   align-items: flex-start;
   justify-content: flex-end;
   font-size: 32px;
+  color: white !important;
+}
+.redirect-play {
   color: white;
+  text-decoration: none;
+  font-size: 32px;
 }
 .row-lyric {
   width: 65%;
@@ -144,109 +150,7 @@ img {
   padding-right: 8%;
   padding-bottom: 5%;
 }
-/* No Support Screen Sizes */
-@media screen and (min-width: 100px) and (max-width: 349px) {
-  .no-support-device {
-    display: inline;
-    text-align: center;
-  }
-  .browse-container,
-  .browse-caption,
-  .row,
-  .spinner-container,
-  .footer {
-    display: none;
-  }
-}
 
-@media screen and (min-width: 349px) and (max-width: 576px) {
-  .browse-caption {
-    margin-bottom: 2%;
-    font-size: 36px;
-  }
-  .spinner-container {
-    width: 100%;
-    height: 80vh;
-  }
-  .row-lyric {
-    width: 65%;
-    height: 50vh;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
-  }
-  .picture-section {
-    margin-right: 100%;
-    margin-left: 0%;
-    margin-top: 20%;
-    padding-top: 20%;
-  }
-
-  .tracks-detail {
-    height: 80vh;
-    width: 20vh;
-    padding-right: 59.7%;
-  }
-  .track-info-container {
-    padding-top: 50%;
-    margin-top: 20%;
-    width: 30%;
-  }
-  .track-name {
-    font-size: 20px;
-  }
-  .artist-name {
-    font-size: 12px;
-  }
-  .album-name {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 851px) and (max-width: 650px) {
-  .browse-caption {
-    margin-bottom: 2%;
-    font-size: 36px;
-  }
-  .spinner-container {
-    width: 100%;
-    height: 80vh;
-  }
-  .picture-section {
-    margin-right: 100%;
-    margin-left: 0%;
-    margin-top: 20%;
-    padding-top: 20%;
-  }
-
-  .tracks-detail {
-    height: 80vh;
-    width: 20vh;
-    padding-right: 59.7%;
-  }
-  .track-info-container {
-    padding-top: 50%;
-    margin-top: 20%;
-    width: 30%;
-  }
-  .track-name {
-    font-size: 20px;
-  }
-  .artist-name {
-    font-size: 12px;
-  }
-  .album-name {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .browse-caption {
-    margin-bottom: 2%;
-    font-size: 36px;
-  }
-  .spinner-container {
-    width: 100%;
-    height: 80vh;
-  }
+.red {
+  color: red;
 }
