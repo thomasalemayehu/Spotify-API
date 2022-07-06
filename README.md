@@ -1,6 +1,6 @@
 ## Project Title:
 
-    Spotify Library
+    Spotify Api
 
 ## Project Description:
 
@@ -12,6 +12,7 @@
 <img src="https://raw.githubusercontent.com/thomasalemayehu/Dice-Game/main/assets/readmefiles/html.png" height=30>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/Dice-Game/main/assets/readmefiles/css-3.svg" height=30>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/Dice-Game/main/assets/readmefiles/javascript.svg" height=30>
+<img src="https://github.com/thomasalemayehu/Spotify-API/blob/main/assets/icons/icons8-rest-api-48.png" height=30>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/Dice-Game/main/assets/readmefiles/markdown.svg" height=30>
 </span>
 
@@ -25,10 +26,15 @@
 
 ## Project Preview
 
-![Preview, Task Manager](https://raw.githubusercontent.com/thomasalemayehu/Task-Manager/main/assets/readmefiles/img.png)
+![Home, Spotify Library](https://github.com/thomasalemayehu/Spotify-API/blob/main/assets/screenshots/img.png)
 
-## Note
+![Playlists, Spotify Library](https://github.com/thomasalemayehu/Spotify-API/blob/main/assets/screenshots/img-2.png)
+
+![Music List, Spotify Library](https://github.com/thomasalemayehu/Spotify-API/blob/main/assets/screenshots/img-3.png)
+
+## How to run
 
 To Use Application, Please Follow the Instructions Below:
 
 1. Add clientId & clientSecret from your spotify account to both app.js and model.js
+2. Open index.html in a browser
