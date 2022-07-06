@@ -121,8 +121,8 @@ function browseContent() {
         rowDiv.appendChild(textNode);
         rowDiv.setAttribute("id", track.track.id);
         let iTag = document.createElement("i");
-        iTag.classList.add("fas");
-        iTag.classList.add("fa-heart");
+        // iTag.classList.add("fas");
+        // iTag.classList.add("fa-heart");
         if (searchTrack(track.track)) {
           iTag.classList.add("red");
         }

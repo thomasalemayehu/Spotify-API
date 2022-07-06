@@ -89,7 +89,6 @@ const APPController = (function (UICtrl, APICtrl) {
     const genreSelect = UICtrl.inputField().genre;
     const genreId = genreSelect.options[genreSelect.selectedIndex].value;
     const playlist = await APICtrl.getPlaylistByGenre(token, genreId);
-    console.log(playlists);
     playlists.forEach((p) => UICtrl.createPlaylist(p.name, p.tracks.href));
   });
   DOMInputs.submit.addEventListener("click", async (e) => {
